@@ -1,0 +1,42 @@
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+table {
+    border-collapse: collapse;
+    background-color: rgb(134, 203, 248);
+
+}
+.note{
+    background-color: rgb(241, 12, 12);
+}
+ .td {
+     width: 50px;
+     height: 50px;
+     border: 2px solid white;
+     text-align:center;
+     transition: all 1s;
+ }
+.BUTTONS
+{
+    display: flex;
+    justify-content: space-between;
+}
+ .btn {
+     border: none;
+     outline: none;
+     padding: 10px 16px;
+     background-color: #f1f1f1;
+     cursor: pointer;
+     font-size: 18px;
+ }
+
+ /* Style the active class, and buttons on mouse-over */
+ .active,
+ .btn:hover {
+     background-color: #666;
+     color: white;
+ }
